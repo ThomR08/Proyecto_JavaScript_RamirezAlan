@@ -1,0 +1,925 @@
+[
+    {
+        "id": "1",
+        "name": "Unity Game Development",
+        "teacherInCharge": "Ana María Pérez Soto",
+        "overview": "Create immersive 3D games with Unity. Learn C# programming, game physics, and professional game development workflows.",
+        "difficulty": "Intermediate",
+        "duration": 12,
+        "price": 129,
+        "prerequisites": "Basic programming knowledge in any language. Understanding of 3D geometry is helpful but not required.",
+        "youWillLearn": [
+            "Build complete 3D games",
+            "master C# programming",
+            "implement game physics",
+            "create engaging UI systems",
+            "and optimize game performance"
+        ],
+        "lessons": [
+            {
+                "title": "Getting Started with Unity",
+                "durationInMinutes": 60,
+                "overview": "An introduction to the Unity editor, project creation, and navigating the interface. Learn about GameObjects and Components.",
+                "videoUrl": "https://www.youtube.com/embed/s_t46qS0t7E",
+                "resources": [
+                    {
+                        "link": "https://docs.unity3d.com/Manual/GettingStarted.html",
+                        "name": "Unity Documentation",
+                        "emoji": "📄"
+                    },
+                    {
+                        "link": "https://unity.com/learn/get-started-unity",
+                        "name": "Unity Learn Tutorials",
+                        "emoji": "🎓"
+                    },
+                    {
+                        "link": "https://assetstore.unity.com/top-assets/top-free",
+                        "name": "Unity Asset Store (Free)",
+                        "emoji": "🛒"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "C# Scripting Basics",
+                "durationInMinutes": 90,
+                "overview": "Learn the fundamentals of C# scripting in Unity, including variables, functions, and manipulating GameObjects programmatically.",
+                "videoUrl": "https://www.youtube.com/embed/F3zV9_G395Y",
+                "resources": [
+                    {
+                        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+                        "name": "C# Language Reference",
+                        "emoji": "✍️"
+                    },
+                    {
+                        "link": "https://www.w3schools.com/cs/index.php",
+                        "name": "C# W3Schools Tutorial",
+                        "emoji": "💻"
+                    },
+                    {
+                        "link": "https://www.csharpsyntax.com/",
+                        "name": "C# Cheat Sheet",
+                        "emoji": "📝"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Physics and Collisions",
+                "durationInMinutes": 75,
+                "overview": "Explore the Unity physics engine. Learn about Rigidbody components, colliders, and how to create realistic movement and interactions.",
+                "videoUrl": "https://www.youtube.com/embed/n0D_g7_E0sE",
+                "resources": [
+                    {
+                        "link": "https://docs.unity3d.com/Manual/Physics.html",
+                        "name": "Unity Physics Guide",
+                        "emoji": "⚖️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=k-V3J2iE20A",
+                        "name": "Video on Colliders",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "Unreal Engine Basics",
+        "teacherInCharge": "Ricardo David López Medina",
+        "overview": "Master the fundamentals of Unreal Engine 5. Cover Blueprint visual scripting, level design, and game optimization.",
+        "difficulty": "Beginner",
+        "duration": 8,
+        "price": 89,
+        "prerequisites": "No prior experience required. Basic computer skills and understanding of gaming concepts recommended.",
+        "youWillLearn": [
+            "Create basic games using Blueprints",
+            "design game levels",
+            "implement basic AI",
+            "and understand game optimization techniques"
+        ],
+        "lessons": [
+            {
+                "title": "UE5 Editor Tour",
+                "durationInMinutes": 45,
+                "overview": "Get acquainted with the Unreal Engine 5 interface, including the Content Browser, Details Panel, and the powerful Level Editor.",
+                "videoUrl": "https://www.youtube.com/embed/b0iB0-eG4gE",
+                "resources": [
+                    {
+                        "link": "https://docs.unrealengine.com/5.0/en-US/Basics/UnrealEditor/",
+                        "name": "UE Editor Overview",
+                        "emoji": "�️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=UqN6v2f5V2s",
+                        "name": "UE5 Interface Walkthrough",
+                        "emoji": "▶️"
+                    },
+                    {
+                        "link": "https://www.unrealengine.com/en-US/blog/10-unreal-engine-5-keyboard-shortcuts-to-speed-up-your-workflow",
+                        "name": "Keyboard Shortcuts Guide",
+                        "emoji": "⌨️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Blueprint Visual Scripting",
+                "durationInMinutes": 120,
+                "overview": "Learn to use the Blueprint system to create game logic without writing a single line of code. We'll build our first interactive object.",
+                "videoUrl": "https://www.youtube.com/embed/gSADy3G9DDA",
+                "resources": [
+                    {
+                        "link": "https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/",
+                        "name": "Blueprint Documentation",
+                        "emoji": "🧩"
+                    },
+                    {
+                        "link": "https://blueprintue.com/",
+                        "name": "Blueprint Node Reference",
+                        "emoji": "🔗"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Creating Environments",
+                "durationInMinutes": 90,
+                "overview": "Design and build game levels. Learn about static meshes, materials, lighting, and how to use the Landscape tool.",
+                "videoUrl": "https://www.youtube.com/embed/q6_yqL0LqHk",
+                "resources": [
+                    {
+                        "link": "https://docs.unrealengine.com/5.0/en-US/Levels/CreatingNewLevels/",
+                        "name": "Level Creation Guide",
+                        "emoji": "🏗️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=Lqg40i2t1X0",
+                        "name": "Lighting and Shading in UE5",
+                        "emoji": "💡"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "Game Design Principles",
+        "teacherInCharge": "Sofía Andrea Vargas Castro",
+        "overview": "Learn essential game design concepts including mechanics, dynamics, aesthetics, and player psychology.",
+        "difficulty": "All Levels",
+        "duration": 10,
+        "price": 99,
+        "prerequisites": "No technical prerequisites. Passion for games and creative thinking required.",
+        "youWillLearn": [
+            "Design engaging game mechanics",
+            "balance gameplay",
+            "create compelling narratives",
+            "and understand player psychology"
+        ],
+        "lessons": [
+            {
+                "title": "Introduction to Game Design",
+                "durationInMinutes": 60,
+                "overview": "Define what makes a game and explore the fundamental pillars of game design: rules, challenges, and goals.",
+                "videoUrl": "https://www.youtube.com/embed/z0_WfDqXFp0",
+                "resources": [
+                    {
+                        "link": "https://www.gamasutra.com/",
+                        "name": "Gamasutra Articles",
+                        "emoji": "📖"
+                    },
+                    {
+                        "link": "https://www.coursera.org/learn/introduction-game-design",
+                        "name": "Coursera Game Design Course",
+                        "emoji": "🎓"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "The MDA Framework",
+                "durationInMinutes": 90,
+                "overview": "Understand the Mechanics, Dynamics, and Aesthetics (MDA) framework to analyze and design game systems.",
+                "videoUrl": "https://www.youtube.com/embed/UvC-5X-T80s",
+                "resources": [
+                    {
+                        "link": "https://www.cs.northwestern.edu/~hunicke/MDA.pdf",
+                        "name": "MDA Paper (PDF)",
+                        "emoji": "📜"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=F0p59c7P5s8",
+                        "name": "MDA Explained in a Video",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Player Psychology and Motivation",
+                "durationInMinutes": 75,
+                "overview": "Dive into why players play. We'll cover concepts like flow state, feedback loops, and how to create a compelling player experience.",
+                "videoUrl": "https://www.youtube.com/embed/CqYQW-i2f_Q",
+                "resources": [
+                    {
+                        "link": "https://ncase.me/fireflies/",
+                        "name": "A Guide to Player Motivation",
+                        "emoji": "🧠"
+                    },
+                    {
+                        "link": "https://www.forbes.com/sites/erikkain/2012/05/29/gamification-the-real-world-of-game-design/",
+                        "name": "Article on Gamification",
+                        "emoji": "📰"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/7915579/pexels-photo-7915579.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "Node.js Development",
+        "teacherInCharge": "Pedro Felipe Gómez Bonilla",
+        "overview": "Build high-performance backend services with Node.js. Cover Express.js, MongoDB, and microservices architecture.",
+        "difficulty": "Advanced",
+        "duration": 14,
+        "price": 149,
+        "prerequisites": "Strong JavaScript knowledge, basic understanding of backend development and databases.",
+        "youWillLearn": [
+            "Build scalable APIs",
+            "implement authentication",
+            "handle database operations",
+            "and deploy microservices"
+        ],
+        "lessons": [
+            {
+                "title": "Node.js and Express.js",
+                "durationInMinutes": 60,
+                "overview": "Set up your Node.js environment and learn to build a server from scratch using the popular Express.js framework.",
+                "videoUrl": "https://www.youtube.com/embed/S01Z3i0j11E",
+                "resources": [
+                    {
+                        "link": "https://expressjs.com/",
+                        "name": "Express.js Official Site",
+                        "emoji": "🌐"
+                    },
+                    {
+                        "link": "https://nodejs.dev/en/learn/",
+                        "name": "Node.js Developer Guide",
+                        "emoji": "✍️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Connecting to a Database",
+                "durationInMinutes": 90,
+                "overview": "Learn how to connect your Node.js application to a MongoDB database using Mongoose, and perform CRUD operations.",
+                "videoUrl": "https://www.youtube.com/embed/T3SE5G73L9s",
+                "resources": [
+                    {
+                        "link": "https://mongoosejs.com/",
+                        "name": "Mongoose Documentation",
+                        "emoji": "🗄️"
+                    },
+                    {
+                        "link": "https://www.mongodb.com/docs/",
+                        "name": "MongoDB Official Docs",
+                        "emoji": "📄"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Authentication and JWT",
+                "durationInMinutes": 75,
+                "overview": "Secure your API endpoints. We'll implement user registration, login, and token-based authentication with JSON Web Tokens (JWT).",
+                "videoUrl": "https://www.youtube.com/embed/2B1k6q2D_8g",
+                "resources": [
+                    {
+                        "link": "https://jwt.io/",
+                        "name": "JWT Official Site",
+                        "emoji": "🔒"
+                    },
+                    {
+                        "link": "https://auth0.com/docs/get-started/authentication-and-authorization-flow/json-web-tokens-jwts",
+                        "name": "Auth0 JWT Guide",
+                        "emoji": "🛡️"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg"
+    },
+    {
+        "id": "5",
+        "name": "Database Design",
+        "teacherInCharge": "Juan Carlos Ramírez Flores",
+        "overview": "Comprehensive guide to database design. Learn SQL, NoSQL, data modeling, and performance optimization.",
+        "difficulty": "Intermediate",
+        "duration": 10,
+        "price": 109,
+        "prerequisites": "Basic understanding of programming concepts and data structures.",
+        "youWillLearn": [
+            "Design efficient databases",
+            "write complex queries",
+            "optimize performance",
+            "and handle large datasets"
+        ],
+        "lessons": [
+            {
+                "title": "Relational Database Concepts",
+                "durationInMinutes": 60,
+                "overview": "Understand the core principles of relational databases, including tables, keys, relationships, and basic SQL commands.",
+                "videoUrl": "https://www.youtube.com/embed/2y4L6eM0gSg",
+                "resources": [
+                    {
+                        "link": "https://www.w3schools.com/sql/",
+                        "name": "SQL Tutorial",
+                        "emoji": "💻"
+                    },
+                    {
+                        "link": "https://www.sqlitetutorial.net/",
+                        "name": "SQLite Tutorial",
+                        "emoji": "🗄️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Normalization and Data Modeling",
+                "durationInMinutes": 90,
+                "overview": "Learn the theory and practice of database normalization to reduce data redundancy and improve data integrity. We will model a practical example.",
+                "videoUrl": "https://www.youtube.com/embed/F1hJzDk6Fw0",
+                "resources": [
+                    {
+                        "link": "https://en.wikipedia.org/wiki/Database_normalization",
+                        "name": "Wikipedia - Normalization",
+                        "emoji": "🧠"
+                    },
+                    {
+                        "link": "https://www.lucidchart.com/pages/what-is-database-normalization",
+                        "name": "Database Normalization Guide",
+                        "emoji": "📄"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Introduction to NoSQL",
+                "durationInMinutes": 75,
+                "overview": "Explore the world of NoSQL databases, including document, key-value, and graph databases. Understand when to use NoSQL over SQL.",
+                "videoUrl": "https://www.youtube.com/embed/qI4G66K0-Xk",
+                "resources": [
+                    {
+                        "link": "https://martinfowler.com/articles/nosql-bliki.html",
+                        "name": "NoSQL Distilled",
+                        "emoji": "📖"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=F_fP4mB5mDk",
+                        "name": "NoSQL Databases Explained",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"
+    },
+    {
+        "id": "6",
+        "name": "API Development",
+        "teacherInCharge": "Ricardo David López Medina",
+        "overview": "Create robust APIs using REST and GraphQL. Focus on security, documentation, and best practices.",
+        "difficulty": "Intermediate",
+        "duration": 8,
+        "price": 99,
+        "prerequisites": "Experience with web development and basic understanding of HTTP protocols.",
+        "youWillLearn": [
+            "Design RESTful APIs",
+            "implement GraphQL",
+            "secure endpoints",
+            "and create comprehensive documentation"
+        ],
+        "lessons": [
+            {
+                "title": "RESTful API Design",
+                "durationInMinutes": 60,
+                "overview": "Understand the principles of REST and how to design clean, consistent, and scalable RESTful APIs.",
+                "videoUrl": "https://www.youtube.com/embed/Q-f26N7a0x8",
+                "resources": [
+                    {
+                        "link": "https://restfulapi.net/",
+                        "name": "RESTful API Guide",
+                        "emoji": "🌐"
+                    },
+                    {
+                        "link": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+                        "name": "MDN Web Docs on REST",
+                        "emoji": "📄"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Introduction to GraphQL",
+                "durationInMinutes": 90,
+                "overview": "Explore GraphQL as an alternative to REST. Learn how to define schemas and write queries to fetch exactly the data you need.",
+                "videoUrl": "https://www.youtube.com/embed/e_t2H-4yD2I",
+                "resources": [
+                    {
+                        "link": "https://graphql.org/",
+                        "name": "GraphQL Official Site",
+                        "emoji": "⚡"
+                    },
+                    {
+                        "link": "https://www.apollographql.com/docs/apollo-server/",
+                        "name": "Apollo GraphQL",
+                        "emoji": "⚛️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "API Security",
+                "durationInMinutes": 75,
+                "overview": "Secure your APIs from common threats. We'll cover CORS, rate limiting, and different authentication methods like OAuth 2.0 and JWT.",
+                "videoUrl": "https://www.youtube.com/embed/Fj7n0aYkE4I",
+                "resources": [
+                    {
+                        "link": "https://owasp.org/www-project-api-security/",
+                        "name": "OWASP API Security",
+                        "emoji": "🛡️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=F0p59c7P5s8",
+                        "name": "Video on OAuth 2.0",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/7376/startup-photos.jpg"
+    },
+    {
+        "id": "7",
+        "name": "React Mastery",
+        "teacherInCharge": "Pedro Felipe Gómez Bonilla",
+        "overview": "Advanced React concepts including hooks, context, Redux, and performance optimization techniques.",
+        "difficulty": "Advanced",
+        "duration": 12,
+        "price": 139,
+        "prerequisites": "Strong JavaScript knowledge and experience with React basics.",
+        "youWillLearn": [
+            "Master advanced React patterns",
+            "state management",
+            "performance optimization",
+            "and testing strategies"
+        ],
+        "lessons": [
+            {
+                "title": "Diving Deeper into Hooks",
+                "durationInMinutes": 60,
+                "overview": "Master complex hooks like `useReducer` and `useCallback`. Learn to build your own custom hooks for reusable logic.",
+                "videoUrl": "https://www.youtube.com/embed/dpN_S42d_kM",
+                "resources": [
+                    {
+                        "link": "https://react.dev/learn/reusing-logic-with-custom-hooks",
+                        "name": "Custom Hooks Documentation",
+                        "emoji": "🔗"
+                    },
+                    {
+                        "link": "https://www.robinwieruch.de/react-custom-hooks/",
+                        "name": "Robin Wieruch's Custom Hooks Guide",
+                        "emoji": "📄"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "State Management with Redux Toolkit",
+                "durationInMinutes": 90,
+                "overview": "Learn to manage complex application state with Redux Toolkit, the modern standard for Redux development.",
+                "videoUrl": "https://www.youtube.com/embed/r_s9s8P9jYk",
+                "resources": [
+                    {
+                        "link": "https://redux-toolkit.js.org/",
+                        "name": "Redux Toolkit Official",
+                        "emoji": "⚛️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=cv_v-d-k52c",
+                        "name": "Redux Toolkit Tutorial",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Performance Optimization",
+                "durationInMinutes": 75,
+                "overview": "Discover techniques to improve your React app's performance, including `React.memo()`, `useMemo()`, and lazy loading components.",
+                "videoUrl": "https://www.youtube.com/embed/gT8U5y9t2-c",
+                "resources": [
+                    {
+                        "link": "https://react.dev/reference/react/memo",
+                        "name": "React.memo() Reference",
+                        "emoji": "⚡"
+                    },
+                    {
+                        "link": "https://dmitripavlutin.com/use-memo-for-what/",
+                        "name": "useMemo() Explained",
+                        "emoji": "💡"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
+    },
+    {
+        "id": "8",
+        "name": "Angular Advanced",
+        "teacherInCharge": "Juan Carlos Ramírez Flores",
+        "overview": "Deep dive into Angular framework. Cover state management, testing, and enterprise patterns.",
+        "difficulty": "Advanced",
+        "duration": 14,
+        "price": 149,
+        "prerequisites": "Experience with Angular basics and TypeScript.",
+        "youWillLearn": [
+            "Implement complex state management",
+            "write comprehensive tests",
+            "and build enterprise applications"
+        ],
+        "lessons": [
+            {
+                "title": "Component Communication",
+                "durationInMinutes": 60,
+                "overview": "Explore advanced methods for communication between Angular components, including services and event emitters.",
+                "videoUrl": "https://www.youtube.com/embed/yC6lU625j88",
+                "resources": [
+                    {
+                        "link": "https://angular.io/guide/component-interaction",
+                        "name": "Component Interaction Guide",
+                        "emoji": "🔗"
+                    },
+                    {
+                        "link": "https://www.freecodecamp.org/news/how-to-share-data-between-angular-components-a-complete-guide/",
+                        "name": "FreeCodeCamp Guide",
+                        "emoji": "📖"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "State Management with NgRx",
+                "durationInMinutes": 90,
+                "overview": "Learn the fundamentals of NgRx, a powerful state management solution for Angular, and build a simple store.",
+                "videoUrl": "https://www.youtube.com/embed/O12-m3q6-yM",
+                "resources": [
+                    {
+                        "link": "https://ngrx.io/",
+                        "name": "NgRx Official Site",
+                        "emoji": "⚛️"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=M5G2t1qg4yQ",
+                        "name": "NgRx State Management Tutorial",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Testing Your Angular App",
+                "durationInMinutes": 75,
+                "overview": "Write unit tests for components, services, and pipes using Karma and Jasmine to ensure the reliability of your application.",
+                "videoUrl": "https://www.youtube.com/embed/U6_z86h2BwY",
+                "resources": [
+                    {
+                        "link": "https://angular.io/guide/testing",
+                        "name": "Angular Testing Guide",
+                        "emoji": "🧪"
+                    },
+                    {
+                        "link": "https://testing-library.com/docs/angular-testing-library/intro/",
+                        "name": "Angular Testing Library",
+                        "emoji": "🔍"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+    },
+    {
+        "id": "9",
+        "name": "CSS Architecture",
+        "teacherInCharge": "Ana María Pérez Soto",
+        "overview": "Learn to build maintainable CSS at scale using modern methodologies and tools.",
+        "difficulty": "Intermediate",
+        "duration": 6,
+        "price": 79,
+        "prerequisites": "Strong understanding of CSS basics and experience with responsive design.",
+        "youWillLearn": [
+            "Design scalable CSS architectures",
+            "implement modern CSS features",
+            "and optimize performance"
+        ],
+        "lessons": [
+            {
+                "title": "BEM Methodology",
+                "durationInMinutes": 60,
+                "overview": "Understand the Block, Element, Modifier (BEM) naming convention to create modular and reusable CSS components.",
+                "videoUrl": "https://www.youtube.com/embed/S-t7s4-LgD4",
+                "resources": [
+                    {
+                        "link": "http://getbem.com/",
+                        "name": "BEM Official Site",
+                        "emoji": "🧱"
+                    },
+                    {
+                        "link": "https://css-tricks.com/bem-101/",
+                        "name": "CSS-Tricks on BEM",
+                        "emoji": "🎨"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Utility-First CSS",
+                "durationInMinutes": 90,
+                "overview": "Explore the principles behind utility-first CSS frameworks like Tailwind CSS and learn how they simplify styling workflows.",
+                "videoUrl": "https://www.youtube.com/embed/CqYQW-i2f_Q",
+                "resources": [
+                    {
+                        "link": "https://tailwindcss.com/",
+                        "name": "Tailwind CSS Official Site",
+                        "emoji": "💨"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=S23v_P2D8bU",
+                        "name": "Utility-First CSS Explained",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "CSS-in-JS",
+                "durationInMinutes": 75,
+                "overview": "Learn about the benefits and drawbacks of using CSS-in-JS libraries like Styled Components to manage styles directly in your JavaScript files.",
+                "videoUrl": "https://www.youtube.com/embed/dO9W1l7vWqg",
+                "resources": [
+                    {
+                        "link": "https://styled-components.com/",
+                        "name": "Styled Components",
+                        "emoji": "🎨"
+                    },
+                    {
+                        "link": "https://www.freecodecamp.org/news/what-is-css-in-js-a-beginners-guide-with-examples/",
+                        "name": "CSS-in-JS Guide",
+                        "emoji": "📖"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg"
+    },
+    {
+        "id": "10",
+        "name": "Mathematics 101",
+        "teacherInCharge": "Sofía Andrea Vargas Castro",
+        "overview": "Introduction to core mathematical concepts including algebra, calculus, and probability theory.",
+        "difficulty": "Beginner",
+        "duration": 16,
+        "price": 89,
+        "prerequisites": "High school mathematics or equivalent.",
+        "youWillLearn": [
+            "Master fundamental mathematical concepts",
+            "solve complex problems",
+            "and apply mathematical thinking"
+        ],
+        "lessons": [
+            {
+                "title": "Fundamentals of Algebra",
+                "durationInMinutes": 60,
+                "overview": "Review the basics of algebra, including linear equations, inequalities, and functions. Solve problems with confidence.",
+                "videoUrl": "https://www.youtube.com/embed/b0iB0-eG4gE",
+                "resources": [
+                    {
+                        "link": "https://www.khanacademy.org/math/algebra-basics",
+                        "name": "Khan Academy Algebra",
+                        "emoji": "➕"
+                    },
+                    {
+                        "link": "https://www.mathsisfun.com/algebra/index.html",
+                        "name": "Math is Fun Algebra",
+                        "emoji": "💡"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Introduction to Calculus",
+                "durationInMinutes": 90,
+                "overview": "An introduction to the concepts of limits, derivatives, and integrals. Learn how calculus is applied in real-world scenarios.",
+                "videoUrl": "https://www.youtube.com/embed/T_1Ld6b9qV8",
+                "resources": [
+                    {
+                        "link": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/",
+                        "name": "MIT Calculus Course",
+                        "emoji": "📈"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=kfF40MiS7zA",
+                        "name": "3Blue1Brown Calculus Video",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Probability and Statistics",
+                "durationInMinutes": 75,
+                "overview": "Learn about probability theory, statistical distributions, and hypothesis testing. Understand how to analyze data.",
+                "videoUrl": "https://www.youtube.com/embed/uzCEC_jT9rY",
+                "resources": [
+                    {
+                        "link": "https://www.coursera.org/courses?query=probability%20and%20statistics",
+                        "name": "Coursera Statistics",
+                        "emoji": "🎲"
+                    },
+                    {
+                        "link": "https://www.khanacademy.org/math/statistics-probability",
+                        "name": "Khan Academy Statistics",
+                        "emoji": "📊"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg"
+    },
+    {
+        "id": "11",
+        "name": "Physics Basics",
+        "teacherInCharge": "Ricardo David López Medina",
+        "overview": "Explore fundamental physics principles including mechanics, thermodynamics, and wave theory.",
+        "difficulty": "Beginner",
+        "duration": 16,
+        "price": 89,
+        "prerequisites": "Basic mathematics knowledge including algebra and trigonometry.",
+        "youWillLearn": [
+            "Understand core physics principles",
+            "solve physics problems",
+            "and conduct basic experiments"
+        ],
+        "lessons": [
+            {
+                "title": "Kinematics and Forces",
+                "durationInMinutes": 60,
+                "overview": "Study the motion of objects without considering the forces that cause the motion. Then, introduce Newton's laws of motion.",
+                "videoUrl": "https://www.youtube.com/embed/rXy8yM49w_M",
+                "resources": [
+                    {
+                        "link": "https://www.dummies.com/education/science/physics/physics-i-for-dummies-cheat-sheet/",
+                        "name": "Physics Cheat Sheet",
+                        "emoji": "📝"
+                    },
+                    {
+                        "link": "https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/v/newton-s-first-law-of-motion",
+                        "name": "Khan Academy on Newton's Laws",
+                        "emoji": "🎓"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Energy and Work",
+                "durationInMinutes": 90,
+                "overview": "Learn about the concepts of work, potential energy, kinetic energy, and the law of conservation of energy.",
+                "videoUrl": "https://www.youtube.com/embed/E7_v7dO8rU8",
+                "resources": [
+                    {
+                        "link": "https://www.physicsclassroom.com/class/energy",
+                        "name": "The Physics Classroom",
+                        "emoji": "💡"
+                    },
+                    {
+                        "link": "https://www.khanacademy.org/science/physics/work-and-energy/work-and-energy-tutorial/v/introduction-to-work-and-energy",
+                        "name": "Khan Academy on Work and Energy",
+                        "emoji": "📚"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Thermodynamics and Waves",
+                "durationInMinutes": 75,
+                "overview": "Introduction to the laws of thermodynamics and the properties of waves, including sound and light waves.",
+                "videoUrl": "https://www.youtube.com/embed/D-b5h08y7_s",
+                "resources": [
+                    {
+                        "link": "https://phet.colorado.edu/en/simulations/browse/physics",
+                        "name": "Physics Simulations",
+                        "emoji": "⚗️"
+                    },
+                    {
+                        "link": "https://www.physicsclassroom.com/class/waves",
+                        "name": "The Physics Classroom on Waves",
+                        "emoji": "🌊"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg"
+    },
+    {
+        "id": "12",
+        "name": "Chemistry Essentials",
+        "teacherInCharge": "Juan Carlos Ramírez Flores",
+        "overview": "Learn core chemistry concepts including atomic structure, chemical bonding, and reactions.",
+        "difficulty": "Beginner",
+        "duration": 16,
+        "price": 89,
+        "prerequisites": "Basic understanding of mathematics and scientific notation.",
+        "youWillLearn": [
+            "Master fundamental chemistry concepts",
+            "perform chemical calculations",
+            "and understand lab safety"
+        ],
+        "lessons": [
+            {
+                "title": "Atomic Structure",
+                "durationInMinutes": 60,
+                "overview": "Explore the components of an atom: protons, neutrons, and electrons. Understand atomic number, mass, and isotopes.",
+                "videoUrl": "https://www.youtube.com/embed/thnDxFdkzWQ",
+                "resources": [
+                    {
+                        "link": "https://ptable.com/",
+                        "name": "Interactive Periodic Table",
+                        "emoji": "⚗️"
+                    },
+                    {
+                        "link": "https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/atomic-structure-and-the-periodic-table-introduction",
+                        "name": "Khan Academy on Atoms",
+                        "emoji": "⚛️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Chemical Bonding",
+                "durationInMinutes": 90,
+                "overview": "Learn about ionic, covalent, and metallic bonds. Understand how atoms combine to form molecules and compounds.",
+                "videoUrl": "https://www.youtube.com/embed/Xz2LwGkM92g",
+                "resources": [
+                    {
+                        "link": "https://chem.libretexts.org/Bookshelves/General_Chemistry",
+                        "name": "Chemistry LibreTexts",
+                        "emoji": "📖"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=QXT4OVM4vXI",
+                        "name": "Crash Course Chemistry: Bonding",
+                        "emoji": "▶️"
+                    }
+                ],
+                "done": false
+            },
+            {
+                "title": "Chemical Reactions",
+                "durationInMinutes": 75,
+                "overview": "Introduction to chemical reactions, including balancing equations, and the law of conservation of mass.",
+                "videoUrl": "https://www.youtube.com/embed/Yf7fB0y-L4A",
+                "resources": [
+                    {
+                        "link": "https://www.acs.org/",
+                        "name": "American Chemical Society",
+                        "emoji": "🧪"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=zTfNbygGv3o",
+                        "name": "Balancing Chemical Equations",
+                        "emoji": "➡️"
+                    }
+                ],
+                "done": false
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg"
+    }
+]
