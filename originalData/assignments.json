@@ -1,7 +1,7 @@
 [
     {
         "name": "Final Unity Game Project",
-        "due": 1756200000,
+        "due": 1756200000000,
         "overview": "Build a complete 3D game. Implement game mechanics, user interface, and physics.",
         "type": "Project",
         "attachments": [
@@ -19,7 +19,7 @@
     },
     {
         "name": "Level Design Challenge",
-        "due": 1756201000,
+        "due": 1756201000000,
         "overview": "Create a complex level for an existing game. Implement level design principles and ensure it is fun and playable.",
         "type": "Project",
         "attachments": [
@@ -37,7 +37,7 @@
     },
     {
         "name": "Blueprint Maze",
-        "due": 1756300000,
+        "due": 1756300000000,
         "overview": "Design and build a simple maze game using only visual scripting with Blueprints in Unreal Engine.",
         "type": "Project",
         "attachments": [
@@ -55,7 +55,7 @@
     },
     {
         "name": "Lighting Practice",
-        "due": 1756301000,
+        "due": 1756301000000,
         "overview": "Experiment with lighting in an Unreal Engine level. Create a nighttime and a daytime atmosphere, and document your process.",
         "type": "Practice",
         "attachments": [
@@ -73,7 +73,7 @@
     },
     {
         "name": "Game Concept Document",
-        "due": 1756400000,
+        "due": 1756400000000,
         "overview": "Develop a detailed Game Concept Document (GDD) for a new game. It must include core mechanics, key elements, and target audience.",
         "type": "Document",
         "attachments": [
@@ -91,7 +91,7 @@
     },
     {
         "name": "Mechanics, Dynamics, and Aesthetics Analysis",
-        "due": 1756401000,
+        "due": 1756401000000,
         "overview": "Choose a game and analyze its mechanics, dynamics, and aesthetics (MDA) in a brief report. Explain how they are interrelated.",
         "type": "Analysis",
         "attachments": [
@@ -109,7 +109,7 @@
     },
     {
         "name": "RESTful API with Express.js",
-        "due": 1756500000,
+        "due": 1756500000000,
         "overview": "Build a complete RESTful API for a blog application using Node.js and Express.js. The API should allow managing posts and users.",
         "type": "Project",
         "attachments": [
@@ -127,7 +127,7 @@
     },
     {
         "name": "User Authentication Script",
-        "due": 1756501000,
+        "due": 1756501000000,
         "overview": "Create a user authentication module with registration, login, and JSON Web Tokens (JWT).",
         "type": "Project",
         "attachments": [
@@ -145,14 +145,14 @@
     },
     {
         "name": "E-commerce Database Schema Design",
-        "due": 1756600000,
+        "due": 1756600000000,
         "overview": "Design a normalized database schema for an e-commerce platform. Include an Entity-Relationship Diagram (ERD).",
         "type": "Diagram and Report",
         "attachments": [
             {
                 "name": "ERD Example",
                 "url": "https://example.com/erd-example.png",
-                "emoji": "�️"
+                "emoji": "🖼️"
             }
         ],
         "done": false,
@@ -163,7 +163,7 @@
     },
     {
         "name": "Complex SQL Queries Practice",
-        "due": 1756601000,
+        "due": 1756601000000,
         "overview": "Solve a set of practice problems requiring advanced SQL queries, including JOINS and subqueries.",
         "type": "Practice",
         "attachments": [
@@ -181,7 +181,7 @@
     },
     {
         "name": "API Comparison Report",
-        "due": 1756700000,
+        "due": 1756700000000,
         "overview": "Implement a simple API using REST and GraphQL. Write a report comparing the advantages and disadvantages of each approach.",
         "type": "Project and Report",
         "attachments": [
@@ -199,7 +199,7 @@
     },
     {
         "name": "GraphQL Schema for Blog",
-        "due": 1756701000,
+        "due": 1756701000000,
         "overview": "Create a GraphQL schema for a blog application. Define types, queries, and mutations.",
         "type": "Practice",
         "attachments": [
@@ -217,7 +217,7 @@
     },
     {
         "name": "Advanced State Management Project",
-        "due": 1756800000,
+        "due": 1756800000000,
         "overview": "Create a React application that uses Redux Toolkit or a Context API to manage complex state across multiple components.",
         "type": "Project",
         "attachments": [
@@ -235,7 +235,7 @@
     },
     {
         "name": "Use of 'useMemo' and 'useCallback'",
-        "due": 1756801000,
+        "due": 1756801000000,
         "overview": "Refactor a given React application to use the 'useMemo' and 'useCallback' hooks to optimize performance.",
         "type": "Code Exercise",
         "attachments": [
@@ -253,7 +253,7 @@
     },
     {
         "name": "Component Testing Module",
-        "due": 1756900000,
+        "due": 1756900000000,
         "overview": "Write a set of unit tests for an existing Angular component, using Karma and Jasmine.",
         "type": "Project",
         "attachments": [
@@ -271,7 +271,7 @@
     },
     {
         "name": "NgRx Implementation",
-        "due": 1756901000,
+        "due": 1756901000000,
         "overview": "Integrate NgRx into an Angular application. Implement at least one 'store' with 'actions' and 'selectors'.",
         "type": "Project",
         "attachments": [
@@ -289,7 +289,7 @@
     },
     {
         "name": "CSS-in-JS Project",
-        "due": 1757000000,
+        "due": 1757000000000,
         "overview": "Create a small library of reusable components using a CSS-in-JS solution like Styled Components.",
         "type": "Project",
         "attachments": [
@@ -307,7 +307,7 @@
     },
     {
         "name": "Stylesheet with BEM Methodology",
-        "due": 1757001000,
+        "due": 1757001000000,
         "overview": "Rewrite the stylesheet of a given project using the BEM naming methodology to improve scalability.",
         "type": "Code Exercise",
         "attachments": [
@@ -325,7 +325,7 @@
     },
     {
         "name": "Algebra and Functions Problems",
-        "due": 1757100000,
+        "due": 1757100000000,
         "overview": "Solve a series of problems on equations, inequalities, and functions. Show all steps of the solution.",
         "type": "Assignment",
         "attachments": [
@@ -343,7 +343,7 @@
     },
     {
         "name": "Statistical Analysis Report",
-        "due": 1757101000,
+        "due": 1757101000000,
         "overview": "Analyze a provided data set, calculate measures of central tendency and dispersion, and present your findings in a report.",
         "type": "Report",
         "attachments": [
@@ -361,7 +361,7 @@
     },
     {
         "name": "Lab Report on Forces",
-        "due": 1757200000,
+        "due": 1757200000000,
         "overview": "Write a lab report based on a virtual or physical experiment that demonstrates Newton's laws of motion.",
         "type": "Report",
         "attachments": [
@@ -379,7 +379,7 @@
     },
     {
         "name": "Conservation of Energy Simulation",
-        "due": 1757201000,
+        "due": 1757201000000,
         "overview": "Create a small simulation or diagram illustrating the principle of conservation of energy, for example, using a pendulum.",
         "type": "Diagram",
         "attachments": [
@@ -397,7 +397,7 @@
     },
     {
         "name": "Atomic Structure Quiz",
-        "due": 1757300000,
+        "due": 1757300000000,
         "overview": "A brief quiz to test your understanding of atomic components and the periodic table.",
         "type": "Quiz",
         "attachments": [
