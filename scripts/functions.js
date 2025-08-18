@@ -50,5 +50,5 @@ export function getDateFormatted(timestamp) {
         hour: '2-digit',
         minute: '2-digit'
     });
-    return fecha
+    return fecha;
 }

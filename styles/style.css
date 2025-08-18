@@ -9,9 +9,37 @@ html {
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
     background-color: #fefefe;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100dvw;
+    height: 100px;
+    position: relative;
+    justify-content: space-evenly;
+}
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+a img {
+    width: 4em;
 }
