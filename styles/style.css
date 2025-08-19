@@ -122,9 +122,9 @@ input {
 
 button{
     background-color: #d1d1d1;
-    padding: 10px;
+    padding: 10px 60px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 40px;
     max-width: 90%;
     font-size: 1.5em;
     cursor: pointer;
