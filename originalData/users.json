@@ -5,7 +5,8 @@
         "mail": "johndoe123@gmail.com",
         "password": "12345678",
         "since": 1510363200000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/8343989"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/79.jpg",
+        "id": "1"
     },
     {
         "name": "Pedro Felipe Gómez Bonilla",
@@ -13,7 +14,8 @@
         "mail": "pedrogomezcl@gmail.com",
         "password": "campus2023",
         "since": 1677196800000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/144635993?v=4"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/24.jpg",
+        "id": "2"
     },
     {
         "name": "Ana María López Castro",
@@ -21,7 +23,8 @@
         "mail": "anacastro@example.com",
         "password": "password123",
         "since": 1640995200000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/10661308"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg",
+        "id": "3"
     },
     {
         "name": "Carlos Andrés Bermúdez",
@@ -29,7 +32,8 @@
         "mail": "cbermudez@example.com",
         "password": "passcarlos456",
         "since": 1668873600000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/96715820"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/95.jpg",
+        "id": "4"
     },
     {
         "name": "Sofía Elena Vargas",
@@ -37,7 +41,8 @@
         "mail": "svargas@example.com",
         "password": "sofia_vargas_p@ss",
         "since": 1621536000000,
-        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/85.jpg"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/42.jpg",
+        "id": "5"
     },
     {
         "name": "Juan Pablo Restrepo",
@@ -45,7 +50,8 @@
         "mail": "jprestrepo@example.com",
         "password": "juanpablo789",
         "since": 1608355200000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/26292069"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/14.jpg",
+        "id": "6"
     },
     {
         "name": "Valeria Jaramillo Ochoa",
@@ -53,7 +59,8 @@
         "mail": "vjaochoa@example.com",
         "password": "valeria12345",
         "since": 1704067200000,
-        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/12.jpg"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/27.jpg",
+        "id": "7"
     },
     {
         "name": "Alan Thomas Ramírez Vargas",
@@ -61,7 +68,8 @@
         "mail": "thomasramirez0806@gmail.com",
         "password": "campus2023",
         "since": 1510363200000,
-        "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/estudiantes/67430933368658af17452f9.740192040.476467001751485169.jpeg"
+        "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/estudiantes/67430933368658af17452f9.740192040.476467001751485169.jpeg",
+        "id": "8"
     },
     {
         "name": "Samuel Mogollón",
@@ -69,6 +77,7 @@
         "mail": "smogollonjanne@gmail.com",
         "password": "campus2023",
         "since": 1510363200000,
-        "imageUrl": "https://avatars.githubusercontent.com/u/75456425"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/78.jpg",
+        "id": "9"
     }
 ]

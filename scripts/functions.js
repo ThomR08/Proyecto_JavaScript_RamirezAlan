@@ -51,4 +51,15 @@ export function getDateFormatted(timestamp) {
         minute: '2-digit'
     });
     return fecha;
-}
+};
+
+export async function fetchAUser(id) {
+    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users/${id}`, {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    });
+    const data = await response.json();
+    return data;
+};

@@ -22,6 +22,7 @@ header {
     height: 100px;
     position: relative;
     justify-content: space-evenly;
+    align-items: center;
 }
 header::after {
     content: "";
@@ -36,10 +37,18 @@ a {
     text-decoration: none;
     color: black;
     display: flex;
+    height: auto;
     flex-direction: row;
     align-items: center;
     gap: 1em;
 }
 a img {
     width: 4em;
+}
+#profile {
+    width: 4em;
+    height: 4em;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
 }
