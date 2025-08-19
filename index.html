@@ -10,21 +10,52 @@
 </head>
 
 <body>
-    <header>
-        <a id="logoLMS" href=""><img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt=""><h1 class="logoText">- LMS</h1></a>
-        <a id="dashboard" class="navLink" href="">Dashboard</a>
-        <a id="courses" class="navLink" href="">Courses</a>
-        <a id="assignments" class="navLink" href="">Assignments</a>
-        <a id="teachers" class="navLink" href="">Teachers</a>
-        <a id="profile" class="navLink" href=""><img id="imgProfile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFIMiSwX_AlzPot4VJ7JeYb1OWR6IcbIlPA&s" alt=""></a>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
-        <p>This is a website created for campers who want to increase their knowledge in different areas.</p>
-        <p>All rights reserved. ©</p>
-    </footer>
+    <div id="signInContain">
+        <div id="logoInicio">
+            <img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
+            <h1>LMS</h1>
+        </div>
+        <form id="signIn">
+            <div id="logoSignIn">
+                <img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
+                <h1>LMS</h1>
+            </div>
+            <p>Por favor ingresar los siguientes datos para ingresar a la plataforma</p>
+            <div class="label">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" />
+            </div>
+            <div class="label">
+                <label for="contraseña">Contraseña</label>
+                <input type="password">
+            </div>
+            <button type="submit">Ingresar al panel</button>
+            <p class="piePag">Tienes problemas para ingresar? Por favor contactar con asistencia técnica lo más pronto
+                posible</p>
+        </form>
+    </div>
+
+    <div id="main">
+        <header>
+            <a id="logoLMS" href=""><img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
+                <h1 class="logoText">- LMS</h1>
+            </a>
+            <a id="dashboard" class="navLink" href="">Dashboard</a>
+            <a id="courses" class="navLink" href="">Courses</a>
+            <a id="assignments" class="navLink" href="">Assignments</a>
+            <a id="teachers" class="navLink" href="">Teachers</a>
+            <a id="profile" class="navLink" href=""><img id="imgProfile"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFIMiSwX_AlzPot4VJ7JeYb1OWR6IcbIlPA&s"
+                    alt=""></a>
+        </header>
+        <main>
+
+        </main>
+        <footer>
+            <p>This is a website created for campers who want to increase their knowledge in different areas.</p>
+            <p>All rights reserved. ©</p>
+        </footer>
+    </div>
 </body>
 <script type="module" src="./scripts/script.js"></script>
 
