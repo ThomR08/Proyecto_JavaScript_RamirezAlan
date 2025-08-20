@@ -2,7 +2,7 @@
     {
         "name": "John Doe",
         "role": "student",
-        "mail": "johndoe123@gmail.com",
+        "email": "johndoe123@gmail.com",
         "password": "12345678",
         "since": 1510363200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/79.jpg",
@@ -11,7 +11,7 @@
     {
         "name": "Pedro Felipe Gómez Bonilla",
         "role": "teacher",
-        "mail": "pedrogomezcl@gmail.com",
+        "email": "pedrogomezcl@gmail.com",
         "password": "campus2023",
         "since": 1677196800000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/24.jpg",
@@ -20,7 +20,7 @@
     {
         "name": "Ana María López Castro",
         "role": "teacher",
-        "mail": "anacastro@example.com",
+        "email": "anacastro@example.com",
         "password": "password123",
         "since": 1640995200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg",
@@ -29,7 +29,7 @@
     {
         "name": "Carlos Andrés Bermúdez",
         "role": "teacher",
-        "mail": "cbermudez@example.com",
+        "email": "cbermudez@example.com",
         "password": "passcarlos456",
         "since": 1668873600000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/95.jpg",
@@ -38,7 +38,7 @@
     {
         "name": "Sofía Elena Vargas",
         "role": "teacher",
-        "mail": "svargas@example.com",
+        "email": "svargas@example.com",
         "password": "sofia_vargas_p@ss",
         "since": 1621536000000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/42.jpg",
@@ -47,7 +47,7 @@
     {
         "name": "Juan Pablo Restrepo",
         "role": "teacher",
-        "mail": "jprestrepo@example.com",
+        "email": "jprestrepo@example.com",
         "password": "juanpablo789",
         "since": 1608355200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/14.jpg",
@@ -56,7 +56,7 @@
     {
         "name": "Valeria Jaramillo Ochoa",
         "role": "teacher",
-        "mail": "vjaochoa@example.com",
+        "email": "vjaochoa@example.com",
         "password": "valeria12345",
         "since": 1704067200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/27.jpg",
@@ -65,7 +65,7 @@
     {
         "name": "Alan Thomas Ramírez Vargas",
         "role": "admin",
-        "mail": "thomasramirez0806@gmail.com",
+        "email": "thomasramirez0806@gmail.com",
         "password": "campus2023",
         "since": 1510363200000,
         "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/estudiantes/67430933368658af17452f9.740192040.476467001751485169.jpeg",
@@ -74,7 +74,7 @@
     {
         "name": "Samuel Mogollón",
         "role": "admin",
-        "mail": "smogollonjanne@gmail.com",
+        "email": "smogollonjanne@gmail.com",
         "password": "campus2023",
         "since": 1510363200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/78.jpg",

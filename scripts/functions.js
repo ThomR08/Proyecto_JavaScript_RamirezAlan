@@ -10,7 +10,7 @@ export async function fetchUsers() {
 };
 
 export async function searchUser(user) {
-    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users?mail=${user.mail}&password=${user.password}`, {
+    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users?email=${user.userEmail}&password=${user.userPassword}`, {
         method: 'GET',
         headers: {
             'content-Type': 'application/json'
@@ -20,18 +20,43 @@ export async function searchUser(user) {
     return data;
 };
 
-export async function signIn(user) {
-  const apiUser = await searchUser(user);
-for (const element of apiUser) {
-    if (user.mail ===  element.mail &&  user.password === element.password) {
-        console.log("Autenticado");
-        console.log(element)
-        return element.id;
-    } else  {
-        console.log("No Autenticado")
-        return 0;
+export async function signIn(authenticator) {
+    authenticator.status = "unauthenticated"
+    const apiUser = await searchUser(authenticator);
+    for (const element of apiUser) {
+        if (authenticator.userEmail === element.email && authenticator.userPassword === element.password) {
+            authenticator.status = "authenticated";
+            authenticator.userId = element.id;
+            authenticator.userEmail = element.email;
+            authenticator.userPassword = element.password;
+        }
     }
-  }
+    return authenticator;
+};
+
+export async function authenticate() {
+    let authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    if (authenticator === null) {
+        authenticator = {
+            status: "unauthenticated",
+            userId: "",
+            userEmail: "",
+            userPassword: ""
+        };
+        localStorage.setItem('authenticator', JSON.stringify(authenticator));
+    }
+    if (authenticator.userEmail && authenticator.userPassword) {
+        authenticator = await signIn(authenticator)
+        if (authenticator.status === "authenticated") {
+            localStorage.setItem('authenticator', JSON.stringify(authenticator));
+            const signInContain = document.getElementById("signInContain");
+            const main = document.getElementById("main");
+            signInContain.classList.remove("active");
+            signInContain.classList.add("hidden");
+            main.classList.remove("hidden");
+            main.classList.add("grid");
+        };
+    };
 };
 
 export async function fetchCourses() {

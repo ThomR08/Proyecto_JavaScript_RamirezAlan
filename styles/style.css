@@ -19,26 +19,58 @@ body {
     background-color: #fafafa;
 }
 
-#signInContain {
+.active {
     display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+#signInContain {
     position: relative;
     height: 100dvh;
     justify-content: center;
     align-items: center;
 }
 
-#logoInicio {
-    display: flex;
+#logoContain {
+    width: 100vw;
+    height: 100dvh;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: absolute;
-    opacity: 1;
+    z-index: 2;
+    background-color: #fafafa;
+    animation: logoContain 2s ease forwards;
+    animation-delay: 1s;
+}
+
+#startupLogo {
+    flex-direction: column;
+    align-items: center;
     animation: logo 2s ease forwards;
     animation-delay: 1s;
 }
 
-#logoInicio img {
+#startupLogo img {
     width: 8em;
+}
+
+@keyframes logoContain {
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 
 @keyframes logo {
@@ -82,12 +114,10 @@ body {
 @keyframes signIn {
     0% {
         opacity: 0;
-        display: none;
     }
 
     80% {
         opacity: 0;
-        display: none;
     }
 
     100% {
@@ -135,7 +165,6 @@ p {
 }
 
 #main {
-    display: none;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
 }

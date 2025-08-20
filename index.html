@@ -10,11 +10,14 @@
 </head>
 
 <body>
-    <div id="signInContain">
-        <div id="logoInicio">
+    <div id="logoContain" class="active">
+        <div id="startupLogo" class="active">
             <img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
             <h1>LMS</h1>
         </div>
+    </div>
+
+    <div id="signInContain" class="active">
         <form id="signIn">
             <div id="logoSignIn">
                 <img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
@@ -22,8 +25,8 @@
             </div>
             <p>Please enter the following information to access the platform</p>
             <div class="label">
-                <label for="mail">Email</label>
-                <input name="mail" type="email" id="mail" required />
+                <label for="email">Email</label>
+                <input name="email" type="email" id="email" required />
             </div>
             <div class="label">
                 <label for="password">Password</label>
@@ -34,7 +37,7 @@
         </form>
     </div>
 
-    <div id="main">
+    <div id="main" class="hidden">
         <header>
             <a id="logoLMS" href=""><img src="./resources/LogoCampuslands.B1kb7Hd-_1iubnD black.svg" alt="">
                 <h1 class="logoText">- LMS</h1>
