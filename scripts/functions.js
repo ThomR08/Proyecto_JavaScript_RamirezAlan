@@ -64,9 +64,9 @@ export async function startContent() {
   if (authenticator.status === "authenticated") {
     const userApi = await fetchAUser(authenticator.userId);
     const imgProfile = document.getElementById("imgProfile");
-    imgProfile.src = userApi.imageUrl;
+    imgProfile.src = userApi.imageurl;
     if (userApi.role === "student") {
-      xd
+      studentDashboard()
     } else if (userApi.role === "teacher") {
       xd
     } else if (userApi.role === "admin") {
@@ -129,3 +129,7 @@ export async function fetchAUser(id) {
     const data = await response.json();
     return data;
 };
+
+export async function studentDashboard() {
+  const main = document.getElementByTagName("main")
+}

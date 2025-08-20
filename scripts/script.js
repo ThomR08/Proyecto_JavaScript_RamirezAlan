@@ -3,7 +3,7 @@ import * as modal from './functions.js';
 document.addEventListener('DOMContentLoaded', async () => {
   const logoContain = document.getElementById("logoContain");
   const startupLogo = document.getElementById("startupLogo");
-  await modal.authenticate()
+  modal.authenticate()
   document.querySelector('form')
     .addEventListener('submit', async e => {
       e.preventDefault()
