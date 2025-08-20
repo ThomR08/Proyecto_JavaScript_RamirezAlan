@@ -59,6 +59,22 @@ export async function authenticate() {
     };
 };
 
+export async function startContent() {
+  const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+  if (authenticator.status === "authenticated") {
+    const userApi = await fetchAUser(authenticator.userId);
+    const imgProfile = document.getElementById("imgProfile");
+    imgProfile.src = userApi.imageUrl;
+    if (userApi.role === "student") {
+      xd
+    } else if (userApi.role === "teacher") {
+      xd
+    } else if (userApi.role === "admin") {
+      xd
+    }
+  }
+}
+
 export async function fetchCourses() {
     const response = await fetch(`https://68a09e396e38a02c58193795.mockapi.io/courses`, {
         method: 'GET',
