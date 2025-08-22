@@ -70,14 +70,5 @@
         "since": 1510363200000,
         "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/estudiantes/67430933368658af17452f9.740192040.476467001751485169.jpeg",
         "id": "8"
-    },
-    {
-        "name": "Samuel Mogollón",
-        "role": "admin",
-        "email": "smogollonjanne@gmail.com",
-        "password": "campus2023",
-        "since": 1510363200000,
-        "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/78.jpg",
-        "id": "9"
     }
 ]

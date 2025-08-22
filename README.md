@@ -5,5 +5,4 @@
 
 
 #### Desarrollado por:
-- **_Samuel Mogollón_**
 - **_Alan Ramírez_**

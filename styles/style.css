@@ -171,6 +171,7 @@ p {
 #main {
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
+    animation-delay: 1.5s;
 }
 
 header {

@@ -55,24 +55,22 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
+            startContent()
         };
     };
 };
 
 export async function startContent() {
-  const authenticator = JSON.parse(localStorage.getItem('authenticator'));
-  if (authenticator.status === "authenticated") {
-    const userApi = await fetchAUser(authenticator.userId);
-    const imgProfile = document.getElementById("imgProfile");
-    imgProfile.src = userApi.imageurl;
-    if (userApi.role === "student") {
-      studentDashboard()
-    } else if (userApi.role === "teacher") {
-      xd
-    } else if (userApi.role === "admin") {
-      xd
+    const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    if (authenticator.status === "authenticated") {
+        const userApi = await fetchAUser(authenticator.userId);
+        const imgProfile = document.getElementById("imgProfile");
+        imgProfile.src = userApi.imageUrl;
+        if (userApi.role === "student") {
+        } else if (userApi.role === "teacher") {
+        } else if (userApi.role === "admin") {
+        }
     }
-  }
 }
 
 export async function fetchCourses() {
@@ -131,5 +129,5 @@ export async function fetchAUser(id) {
 };
 
 export async function studentDashboard() {
-  const main = document.getElementByTagName("main")
+    const main = document.getElementByTagName("main")
 }

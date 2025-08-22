@@ -15,7 +15,9 @@
         "content": [],
         "comment": "",
         "id": "1",
-        "coursId": "1"
+        "coursId": "1",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Level Design Challenge",
@@ -33,7 +35,9 @@
         "content": [],
         "comment": "",
         "id": "2",
-        "coursId": "1"
+        "coursId": "1",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Blueprint Maze",
@@ -51,7 +55,9 @@
         "content": [],
         "comment": "",
         "id": "3",
-        "coursId": "2"
+        "coursId": "2",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Lighting Practice",
@@ -69,7 +75,9 @@
         "content": [],
         "comment": "",
         "id": "4",
-        "coursId": "2"
+        "coursId": "2",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Game Concept Document",
@@ -87,7 +95,9 @@
         "content": [],
         "comment": "",
         "id": "5",
-        "coursId": "3"
+        "coursId": "3",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Mechanics, Dynamics, and Aesthetics Analysis",
@@ -105,7 +115,9 @@
         "content": [],
         "comment": "",
         "id": "6",
-        "coursId": "3"
+        "coursId": "3",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "RESTful API with Express.js",
@@ -123,7 +135,9 @@
         "content": [],
         "comment": "",
         "id": "7",
-        "coursId": "4"
+        "coursId": "4",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "User Authentication Script",
@@ -141,7 +155,9 @@
         "content": [],
         "comment": "",
         "id": "8",
-        "coursId": "4"
+        "coursId": "4",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "E-commerce Database Schema Design",
@@ -159,7 +175,9 @@
         "content": [],
         "comment": "",
         "id": "9",
-        "coursId": "5"
+        "coursId": "5",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Complex SQL Queries Practice",
@@ -177,7 +195,9 @@
         "content": [],
         "comment": "",
         "id": "10",
-        "coursId": "5"
+        "coursId": "5",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "API Comparison Report",
@@ -195,7 +215,9 @@
         "content": [],
         "comment": "",
         "id": "11",
-        "coursId": "6"
+        "coursId": "6",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "GraphQL Schema for Blog",
@@ -213,7 +235,9 @@
         "content": [],
         "comment": "",
         "id": "12",
-        "coursId": "6"
+        "coursId": "6",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Advanced State Management Project",
@@ -231,7 +255,9 @@
         "content": [],
         "comment": "",
         "id": "13",
-        "coursId": "7"
+        "coursId": "7",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Use of 'useMemo' and 'useCallback'",
@@ -249,7 +275,9 @@
         "content": [],
         "comment": "",
         "id": "14",
-        "coursId": "7"
+        "coursId": "7",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Component Testing Module",
@@ -267,7 +295,9 @@
         "content": [],
         "comment": "",
         "id": "15",
-        "coursId": "8"
+        "coursId": "8",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "NgRx Implementation",
@@ -285,7 +315,9 @@
         "content": [],
         "comment": "",
         "id": "16",
-        "coursId": "8"
+        "coursId": "8",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "CSS-in-JS Project",
@@ -303,7 +335,9 @@
         "content": [],
         "comment": "",
         "id": "17",
-        "coursId": "9"
+        "coursId": "9",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Stylesheet with BEM Methodology",
@@ -321,7 +355,9 @@
         "content": [],
         "comment": "",
         "id": "18",
-        "coursId": "9"
+        "coursId": "9",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Algebra and Functions Problems",
@@ -339,7 +375,9 @@
         "content": [],
         "comment": "",
         "id": "19",
-        "coursId": "10"
+        "coursId": "10",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Statistical Analysis Report",
@@ -357,7 +395,9 @@
         "content": [],
         "comment": "",
         "id": "20",
-        "coursId": "10"
+        "coursId": "10",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Lab Report on Forces",
@@ -375,7 +415,9 @@
         "content": [],
         "comment": "",
         "id": "21",
-        "coursId": "11"
+        "coursId": "11",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Conservation of Energy Simulation",
@@ -393,7 +435,9 @@
         "content": [],
         "comment": "",
         "id": "22",
-        "coursId": "11"
+        "coursId": "11",
+        "score": 0,
+        "userId": 1
     },
     {
         "name": "Atomic Structure Quiz",
@@ -411,6 +455,8 @@
         "content": [],
         "comment": "",
         "id": "23",
-        "coursId": "12"
+        "coursId": "12",
+        "score": 0,
+        "userId": 1
     }
 ]
