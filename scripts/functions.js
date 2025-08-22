@@ -67,6 +67,7 @@ export async function startContent() {
         const imgProfile = document.getElementById("imgProfile");
         imgProfile.src = userApi.imageUrl;
         if (userApi.role === "student") {
+            
         } else if (userApi.role === "teacher") {
         } else if (userApi.role === "admin") {
         }
