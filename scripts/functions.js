@@ -55,7 +55,6 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
-            startContent()
         };
     };
 };
@@ -66,8 +65,18 @@ export async function startContent() {
         const userApi = await fetchAUser(authenticator.userId);
         const imgProfile = document.getElementById("imgProfile");
         imgProfile.src = userApi.imageUrl;
+        const main = document.querySelector("main");
+        main.innerHTML = ""
         if (userApi.role === "student") {
             
+            const dashboard = document.createElement("section")
+            dashboard.append(
+                Object.assign(document.createElement("h1"), {textContent: "Dashboard"}),
+                Object.assign(document.createElement("div").append(
+                    Object.assign(document.createElement("div"), {className: "cardContent"})
+                ), {className: "card"})
+            );
+            main.appendChild(dashboard);
         } else if (userApi.role === "teacher") {
         } else if (userApi.role === "admin") {
         }
