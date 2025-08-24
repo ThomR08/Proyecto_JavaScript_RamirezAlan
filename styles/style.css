@@ -14,6 +14,7 @@ html {
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -224,9 +225,11 @@ a img {
 }
 
 main {
+    margin: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 h1 {
@@ -280,25 +283,29 @@ button {
 }
 
 .space-between {
+    max-width: 100%;
+    min-width: 1114px;
     display: flex;
+    position: relative;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: .5rem;
 }
 
 section {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     gap: 2rem;
 }
 
 .card {
-    display: flex;
+    display: grid;
     position: relative;
-    flex-direction: column;
+    grid-template-rows: auto 1fr auto;
     overflow: hidden;
-    align-items: center;
+    justify-items: center;
     width: 350px;
     min-height: 150px;
     background-color: #fff;
@@ -340,4 +347,23 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
     background-color: #d1d1d1;
+}
+
+.cardContent p {
+    text-align: left;
+}
+
+.afterBar {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.noPaddingX {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.moreInfo {
+    padding: 10px 40px;
 }
