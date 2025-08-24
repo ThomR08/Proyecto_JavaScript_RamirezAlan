@@ -6,6 +6,208 @@
         "password": "12345678",
         "since": 1510363200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/79.jpg",
+        "enrolledCourses": [
+            {
+                "courseId": "1",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "2",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "3",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "4",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "5",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "6",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "7",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "8",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "9",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "10",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "11",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "3",
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "courseId": "12",
+                "lessons": [
+                    {
+                        "lessonId": "1",
+                        "done": false
+                    },
+                    {
+                        "lessonId": "2",
+                        "done": false
+                    }
+                ]
+            }
+        ],
         "id": "1"
     },
     {
@@ -15,6 +217,7 @@
         "password": "campus2023",
         "since": 1677196800000,
         "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/trainers/5502081666758a50a9148a9.664147550.595093001733862666.jpeg",
+        "enrolledCourses": [],
         "id": "2"
     },
     {
@@ -24,6 +227,7 @@
         "password": "password123",
         "since": 1640995200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/81.jpg",
+        "enrolledCourses": [],
         "id": "3"
     },
     {
@@ -33,6 +237,7 @@
         "password": "passcarlos456",
         "since": 1668873600000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/95.jpg",
+        "enrolledCourses": [],
         "id": "4"
     },
     {
@@ -42,6 +247,7 @@
         "password": "sofia_vargas_p@ss",
         "since": 1621536000000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/42.jpg",
+        "enrolledCourses": [],
         "id": "5"
     },
     {
@@ -51,6 +257,7 @@
         "password": "juanpablo789",
         "since": 1608355200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/14.jpg",
+        "enrolledCourses": [],
         "id": "6"
     },
     {
@@ -60,6 +267,7 @@
         "password": "valeria12345",
         "since": 1704067200000,
         "imageUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/27.jpg",
+        "enrolledCourses": [],
         "id": "7"
     },
     {
@@ -69,6 +277,7 @@
         "password": "campus2023",
         "since": 1510363200000,
         "imageUrl": "https://khc-sistema-v2.s3.amazonaws.com/users/estudiantes/67430933368658af17452f9.740192040.476467001751485169.jpeg",
+        "enrolledCourses": [],
         "id": "8"
     }
 ]
