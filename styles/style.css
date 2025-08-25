@@ -331,7 +331,28 @@ section {
     aspect-ratio: 16/9;
 }
 
-.card button {
+.float {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+}
+
+.left {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+}
+
+.right {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+.card button, .assignment button {
     margin-bottom: 1rem;
 }
 
@@ -365,13 +386,34 @@ progress::-webkit-progress-value {
     background-color: black;
 }
 
-.noPaddingX {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .moreInfo {
     padding: 10px 40px;
+}
+
+.assignment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    width: 70%;
+    min-height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .3);
+}
+
+.assignmentContent{
+    display: flex;
+    position: relative;
+    width: 70%;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.assignmentContent p{
+    text-align: left;
 }
 
 @media (max-width: 650px) {

@@ -84,7 +84,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+        "category": "Video Games"
     },
     {
         "id": "2",
@@ -165,7 +166,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg",
+        "category": "Video Games"
     },
     {
         "id": "3",
@@ -241,7 +243,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/7915579/pexels-photo-7915579.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/7915579/pexels-photo-7915579.jpeg",
+        "category": "Video Games"
     },
     {
         "id": "4",
@@ -317,7 +320,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg",
+        "category": "Backend"
     },
     {
         "id": "5",
@@ -393,7 +397,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg",
+        "category": "Backend"
     },
     {
         "id": "6",
@@ -469,7 +474,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/7376/startup-photos.jpg"
+        "imageUrl": "https://images.pexels.com/photos/7376/startup-photos.jpg",
+        "category": "Backend"
     },
     {
         "id": "7",
@@ -545,7 +551,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg",
+        "category": "Frontend"
     },
     {
         "id": "8",
@@ -620,7 +627,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+        "category": "Frontend"
     },
     {
         "id": "9",
@@ -695,7 +703,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg",
+        "category": "Frontend"
     },
     {
         "id": "10",
@@ -770,7 +779,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg",
+        "category": "Schools"
     },
     {
         "id": "11",
@@ -845,7 +855,8 @@
                 ]
             }
         ],
-        "imageUrl": "https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg"
+        "imageUrl": "https://images.pexels.com/photos/60582/newton-s-cradle-balls-sphere-action-60582.jpeg",
+        "category": "Schools"
     },
     {
         "id": "12",
@@ -881,6 +892,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "imageUrl": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg",
+        "category": "Schools"
     }
 ]

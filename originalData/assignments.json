@@ -9,15 +9,15 @@
                 "name": "Project Requirements Guide",
                 "url": "https://example.com/project-requirements-guide.pdf",
                 "emoji": "📄"
+            },
+            {
+                "name": "Unity Asset Pack",
+                "url": "https://example.com/unity-asset-pack.zip",
+                "emoji": "📦"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "1",
-        "coursId": "1",
-        "score": 0,
-        "userId": 1
+        "courseId": "1"
     },
     {
         "name": "Level Design Challenge",
@@ -29,15 +29,15 @@
                 "name": "Level Design Checklist",
                 "url": "https://example.com/level-design-checklist.docx",
                 "emoji": "📝"
+            },
+            {
+                "name": "Reference Level Map",
+                "url": "https://example.com/reference-level-map.png",
+                "emoji": "🗺️"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "2",
-        "coursId": "1",
-        "score": 0,
-        "userId": 1
+        "courseId": "1"
     },
     {
         "name": "Blueprint Maze",
@@ -51,13 +51,8 @@
                 "emoji": "📦"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "3",
-        "coursId": "2",
-        "score": 0,
-        "userId": 1
+        "courseId": "2"
     },
     {
         "name": "Lighting Practice",
@@ -71,13 +66,8 @@
                 "emoji": "📦"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "4",
-        "coursId": "2",
-        "score": 0,
-        "userId": 1
+        "courseId": "2"
     },
     {
         "name": "Game Concept Document",
@@ -91,13 +81,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "5",
-        "coursId": "3",
-        "score": 0,
-        "userId": 1
+        "courseId": "3"
     },
     {
         "name": "Mechanics, Dynamics, and Aesthetics Analysis",
@@ -111,13 +96,8 @@
                 "emoji": "📝"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "6",
-        "coursId": "3",
-        "score": 0,
-        "userId": 1
+        "courseId": "3"
     },
     {
         "name": "RESTful API with Express.js",
@@ -129,15 +109,15 @@
                 "name": "Express.js Boilerplate",
                 "url": "https://example.com/express-boilerplate.zip",
                 "emoji": "📦"
+            },
+            {
+                "name": "API Design Specifications",
+                "url": "https://example.com/api-specs.pdf",
+                "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "7",
-        "coursId": "4",
-        "score": 0,
-        "userId": 1
+        "courseId": "4"
     },
     {
         "name": "User Authentication Script",
@@ -151,13 +131,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "8",
-        "coursId": "4",
-        "score": 0,
-        "userId": 1
+        "courseId": "4"
     },
     {
         "name": "E-commerce Database Schema Design",
@@ -169,15 +144,15 @@
                 "name": "ERD Example",
                 "url": "https://example.com/erd-example.png",
                 "emoji": "🖼️"
+            },
+            {
+                "name": "Database Schema Report",
+                "url": "https://example.com/db-report.docx",
+                "emoji": "📝"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "9",
-        "coursId": "5",
-        "score": 0,
-        "userId": 1
+        "courseId": "5"
     },
     {
         "name": "Complex SQL Queries Practice",
@@ -191,13 +166,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "10",
-        "coursId": "5",
-        "score": 0,
-        "userId": 1
+        "courseId": "5"
     },
     {
         "name": "API Comparison Report",
@@ -209,15 +179,15 @@
                 "name": "API Comparison Rubric",
                 "url": "https://example.com/api-comparison-rubric.pdf",
                 "emoji": "📄"
+            },
+            {
+                "name": "GraphQL vs REST Video",
+                "url": "https://example.com/graphql-rest-video.mp4",
+                "emoji": "▶️"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "11",
-        "coursId": "6",
-        "score": 0,
-        "userId": 1
+        "courseId": "6"
     },
     {
         "name": "GraphQL Schema for Blog",
@@ -231,13 +201,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "12",
-        "coursId": "6",
-        "score": 0,
-        "userId": 1
+        "courseId": "6"
     },
     {
         "name": "Advanced State Management Project",
@@ -249,15 +214,15 @@
                 "name": "Redux Toolkit Tutorial",
                 "url": "https://example.com/redux-tutorial.pdf",
                 "emoji": "📄"
+            },
+            {
+                "name": "React-Redux Repo",
+                "url": "https://example.com/react-redux-repo.zip",
+                "emoji": "📦"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "13",
-        "coursId": "7",
-        "score": 0,
-        "userId": 1
+        "courseId": "7"
     },
     {
         "name": "Use of 'useMemo' and 'useCallback'",
@@ -269,15 +234,15 @@
                 "name": "Optimization Challenge Codebase",
                 "url": "https://example.com/react-optimization-code.zip",
                 "emoji": "📦"
+            },
+            {
+                "name": "Performance Optimization Video",
+                "url": "https://example.com/optimization-video.mp4",
+                "emoji": "▶️"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "14",
-        "coursId": "7",
-        "score": 0,
-        "userId": 1
+        "courseId": "7"
     },
     {
         "name": "Component Testing Module",
@@ -291,13 +256,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "15",
-        "coursId": "8",
-        "score": 0,
-        "userId": 1
+        "courseId": "8"
     },
     {
         "name": "NgRx Implementation",
@@ -311,13 +271,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "16",
-        "coursId": "8",
-        "score": 0,
-        "userId": 1
+        "courseId": "8"
     },
     {
         "name": "CSS-in-JS Project",
@@ -329,15 +284,15 @@
                 "name": "Styled Components Tutorial",
                 "url": "https://example.com/styled-components-tutorial.pdf",
                 "emoji": "📄"
+            },
+            {
+                "name": "Styled Components Boilerplate",
+                "url": "https://example.com/styled-components-boilerplate.zip",
+                "emoji": "📦"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "17",
-        "coursId": "9",
-        "score": 0,
-        "userId": 1
+        "courseId": "9"
     },
     {
         "name": "Stylesheet with BEM Methodology",
@@ -351,13 +306,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "18",
-        "coursId": "9",
-        "score": 0,
-        "userId": 1
+        "courseId": "9"
     },
     {
         "name": "Algebra and Functions Problems",
@@ -369,15 +319,15 @@
                 "name": "Math Practice Worksheet",
                 "url": "https://example.com/math-worksheet.pdf",
                 "emoji": "📄"
+            },
+            {
+                "name": "Answer Key",
+                "url": "https://example.com/math-worksheet-answers.pdf",
+                "emoji": "🔑"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "19",
-        "coursId": "10",
-        "score": 0,
-        "userId": 1
+        "courseId": "10"
     },
     {
         "name": "Statistical Analysis Report",
@@ -391,13 +341,8 @@
                 "emoji": "📊"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "20",
-        "coursId": "10",
-        "score": 0,
-        "userId": 1
+        "courseId": "10"
     },
     {
         "name": "Lab Report on Forces",
@@ -409,15 +354,15 @@
                 "name": "Lab Report Template",
                 "url": "https://example.com/lab-report-template.docx",
                 "emoji": "📝"
+            },
+            {
+                "name": "Experiment Video",
+                "url": "https://example.com/lab-experiment-video.mp4",
+                "emoji": "▶️"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "21",
-        "coursId": "11",
-        "score": 0,
-        "userId": 1
+        "courseId": "11"
     },
     {
         "name": "Conservation of Energy Simulation",
@@ -431,13 +376,8 @@
                 "emoji": "📄"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "22",
-        "coursId": "11",
-        "score": 0,
-        "userId": 1
+        "courseId": "11"
     },
     {
         "name": "Atomic Structure Quiz",
@@ -449,14 +389,14 @@
                 "name": "Periodic Table Chart",
                 "url": "https://example.com/periodic-table.png",
                 "emoji": "🖼️"
+            },
+            {
+                "name": "Interactive Quiz Link",
+                "url": "https://example.com/atomic-quiz-link",
+                "emoji": "🔗"
             }
         ],
-        "done": false,
-        "content": [],
-        "comment": "",
         "id": "23",
-        "coursId": "12",
-        "score": 0,
-        "userId": 1
+        "courseId": "12"
     }
 ]

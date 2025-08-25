@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       authenticator.userEmail = data.email;
       authenticator.userPassword = data.password;
       localStorage.setItem('authenticator', JSON.stringify(authenticator));
-      animation()
+      modal.animation()
       await modal.authenticate()
     });
 });

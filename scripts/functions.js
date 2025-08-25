@@ -80,7 +80,6 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
-            startContent()
         };
     };
 };
@@ -208,6 +207,17 @@ export async function fetchCourses() {
     return data;
 };
 
+export async function fetchCoursesOfCategory(category) {
+    const response = await fetch(`https://68a09e396e38a02c58193795.mockapi.io/courses?category=${category}`, {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    });
+    const data = await response.json();
+    return data;
+};
+
 export async function fetchACourse(id) {
     const response = await fetch(`https://68a09e396e38a02c58193795.mockapi.io/courses/${id}`, {
         method: 'GET',
@@ -230,8 +240,19 @@ export async function fetchAssignments() {
     return data;
 };
 
-export async function fetchSubmittedAssignments() {
-    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/submittedAssignments`, {
+export async function fetchAAssignment(id) {
+    const response = await fetch(`https://68a09e396e38a02c58193795.mockapi.io/assignments/${id}`, {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    });
+    const data = await response.json();
+    return data;
+};
+
+export async function fetchSubmittedAssignments(id) {
+    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/submittedAssignments/${id}`, {
         method: 'GET',
         headers: {
             'content-Type': 'application/json'
@@ -302,4 +323,156 @@ export function animation() {
         logoContain.classList.add("active");
         startupLogo.classList.add("active");
     }, 50)
+}
+
+export async function startCourses() {
+    const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    const userApi = await fetchAUser(authenticator.userId);
+    const categories = [
+        "Video Games",
+        "Backend",
+        "Frontend",
+        "Schools"
+    ]
+    if (authenticator.status === "authenticated") {
+        if (userApi.role === "student") {
+            const main = document.querySelector("main");
+            main.innerHTML = "";
+            main.innerHTML += `
+        <div class="space-between">
+            <h1>My Enrolled Courses</h1>
+        </div>
+        <section>
+            <div class="row">
+            </div>
+        </section>
+            `;
+            const row = document.querySelector(".row");
+            let counter = 0;
+for (const element of userApi.enrolledCourses) {
+                let doneLessons = 0;
+                userApi.enrolledCourses[counter].lessons.forEach(element => {
+                    if (element.done) {
+                        doneLessons += 1;
+                    }
+                });
+                const apiCourse = await fetchACourse(element.courseId);
+                const apiTeacher = await fetchAUser(apiCourse.teacherInChargeId);
+                const progress = Math.floor(doneLessons / apiCourse.lessons.length * 100);
+                row.innerHTML += `
+                <div class="card">
+                    <img src="${apiCourse.imageUrl}" alt="">
+                    <div class="cardContent">
+                        <span class="t2">${apiCourse.name}</span>
+                        <span class="t5">${apiTeacher.name}</span>
+                        <div class="row2">
+                            <progress max="100" value="${progress}"></progress>
+                            <span class="t5">${progress}% Complete</span>
+                            <span class="t3">${doneLessons}/${apiCourse.lessons.length} Lessons</span>
+                        </div>
+                    </div>
+                    <button class="continueLearning" courseId="${apiCourse.id}">Continue Learning</button>
+                </div>
+                `
+                counter += 1;
+            }
+
+
+            main.innerHTML += `
+        <div class="space-between">
+            <h1>Available Courses</h1>
+        </div>
+            `;
+            for (const element of categories) {
+                const courses = await fetchCoursesOfCategory(element)
+                const section = document.createElement("section");
+                section.innerHTML += `
+            <div class="space-between">
+                <h2>${element}</h2>
+                <div class="afterBar"></div>
+            </div>
+            <div class="row">
+            </div>
+                `
+                const row = section.querySelector(".row");
+                for (const element of courses) {
+                    row.innerHTML += `
+                <div class="card">
+                    <img src="${element.imageUrl}" alt="">
+                    <div class="cardContent">
+                        <span class="t2">${element.name}</span>
+                        <p class="overview">${element.overview}</p>
+                    </div>
+                    <button class="moreInfo" courseId="${element.id}">More Info</button>
+                </div>
+                    `
+                };
+                main.appendChild(section)
+            };
+        } else if (userApi.role === "teacher") {
+        } else if (userApi.role === "admin") {
+        }
+    }
+}
+
+export async function startAssignments() {
+    const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    const userApi = await fetchAUser(authenticator.userId);
+    console.log(userApi);
+    
+    if (authenticator.status === "authenticated") {
+        if (userApi.role === "student") {
+            const main = document.querySelector("main");
+            main.innerHTML = "";
+            main.innerHTML = `
+        <div class="space-between">
+            <h1>Your Assignments</h1>
+        </div>
+            `
+            const submittedAssignments = await fetchUserSubmittedAssignments(userApi.id);
+            const date = new Date()
+            for (const element of submittedAssignments) {
+                const assignment = await fetchAAssignment(element.assignmentId)
+                const course = await fetchACourse(assignment.courseId)
+                const cardContent = document.createElement("div");
+                cardContent.className = "assignmentContent";
+                const button = document.createElement("button");
+                button.className = "submitAssignment";
+                button.setAttribute("assignmentId", element.id);
+                button.textContent = "📤 Submit Assignment";
+                const divAssignment = document.createElement("div");
+                divAssignment.className = "assignment";
+                divAssignment.append(cardContent, button)
+                
+                let status = "⏳ Pending";
+                if (element.done && element.submittedOn > assignment.due) {
+                    status = "⭕ Late submission"
+                } else if (!element.done && date > assignment.due) {
+                    status = "❌ Delayed"
+                } else if (element.done && date < assignment.due) {
+                    status = "✅ Completed"
+                }
+                let score;
+                if (element.score != 0) {
+                    score = element.score
+                } else {
+                    score = "Not rated"
+                }
+                cardContent.innerHTML = `
+                    <span class="t5">${status}</span>
+                    <span class="t2">${assignment.name}</span>
+                    <span class="t4">${course.name}</span>
+                    <span class="t5">📅 Due: ${new Date(assignment.due).toLocaleString()}</span>
+                    <p>${assignment.overview}</p>
+                    <span class="t5">🎯 Score: ${score}</span>
+                    <span class="t3">📝 Type: ${assignment.type}</span>
+                    <span class="t4">📎 ${assignment.attachments.length} attachment(s)</span>
+                `
+                main.appendChild(divAssignment)
+            }
+            
+        } else if (userApi.role === "teacher") {
+        } else if (userApi.role === "admin") {
+        }
+    }
 }
