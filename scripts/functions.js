@@ -91,7 +91,6 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
-            await startContent();
         };
     };
 };
@@ -361,7 +360,7 @@ export async function startCourses() {
             `;
             const row = document.querySelector(".row");
             let counter = 0;
-for (const element of userApi.enrolledCourses) {
+            for (const element of userApi.enrolledCourses) {
                 let doneLessons = 0;
                 userApi.enrolledCourses[counter].lessons.forEach(element => {
                     if (element.done) {
@@ -431,7 +430,7 @@ export async function startAssignments() {
     const authenticator = JSON.parse(localStorage.getItem('authenticator'));
     const userApi = await fetchAUser(authenticator.userId);
     console.log(userApi);
-    
+
     if (authenticator.status === "authenticated") {
         if (userApi.role === "student") {
             const main = document.querySelector("main");
@@ -455,7 +454,7 @@ export async function startAssignments() {
                 const divAssignment = document.createElement("div");
                 divAssignment.className = "assignment";
                 divAssignment.append(cardContent, button)
-                
+
                 let status = "⏳ Pending";
                 if (element.done && element.submittedOn > assignment.due) {
                     status = "⭕ Late submission"
@@ -482,7 +481,7 @@ export async function startAssignments() {
                 `
                 main.appendChild(divAssignment)
             }
-            
+
         } else if (userApi.role === "teacher") {
         } else if (userApi.role === "admin") {
         }
@@ -492,7 +491,7 @@ export async function startAssignments() {
 export async function startTeachers() {
     const authenticator = JSON.parse(localStorage.getItem('authenticator'));
     const userApi = await fetchAUser(authenticator.userId);
-    
+
     if (authenticator.status === "authenticated") {
         if (userApi.role === "student") {
             const main = document.querySelector("main");
@@ -523,5 +522,16 @@ export async function startTeachers() {
         } else if (userApi.role === "teacher") {
         } else if (userApi.role === "admin") {
         }
+    }
+}
+
+export async function startProfile() {
+
+    const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    const userApi = await fetchAUser(authenticator.userId);
+
+    if (authenticator.status === "authenticated") {
+        const main = document.querySelector("main");
+        main.innerHTML = "";
     }
 }
