@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         new FormData(e.target)
       );
       let authenticator = JSON.parse(localStorage.getItem('authenticator'));
-      authenticator.userEmail = data.email;
+      authenticator.userEmail = data.email.toLowerCase();
       authenticator.userPassword = data.password;
       localStorage.setItem('authenticator', JSON.stringify(authenticator));
       modal.animation()

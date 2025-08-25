@@ -21,7 +21,7 @@
     },
     {
         "name": "Level Design Challenge",
-        "due": 1756201000000,
+        "due": 1755855600000,
         "overview": "Create a complex level for an existing game. Implement level design principles and ensure it is fun and playable.",
         "type": "Project",
         "attachments": [
@@ -41,7 +41,7 @@
     },
     {
         "name": "Blueprint Maze",
-        "due": 1756300000000,
+        "due": 1755855600000,
         "overview": "Design and build a simple maze game using only visual scripting with Blueprints in Unreal Engine.",
         "type": "Project",
         "attachments": [
@@ -101,7 +101,7 @@
     },
     {
         "name": "RESTful API with Express.js",
-        "due": 1756500000000,
+        "due": 1755855600000,
         "overview": "Build a complete RESTful API for a blog application using Node.js and Express.js. The API should allow managing posts and users.",
         "type": "Project",
         "attachments": [
@@ -136,7 +136,7 @@
     },
     {
         "name": "E-commerce Database Schema Design",
-        "due": 1756600000000,
+        "due": 1755855600000,
         "overview": "Design a normalized database schema for an e-commerce platform. Include an Entity-Relationship Diagram (ERD).",
         "type": "Diagram and Report",
         "attachments": [
@@ -171,7 +171,7 @@
     },
     {
         "name": "API Comparison Report",
-        "due": 1756700000000,
+        "due": 1755855600000,
         "overview": "Implement a simple API using REST and GraphQL. Write a report comparing the advantages and disadvantages of each approach.",
         "type": "Project and Report",
         "attachments": [
@@ -206,7 +206,7 @@
     },
     {
         "name": "Advanced State Management Project",
-        "due": 1756800000000,
+        "due": 1755855600000,
         "overview": "Create a React application that uses Redux Toolkit or a Context API to manage complex state across multiple components.",
         "type": "Project",
         "attachments": [
@@ -246,7 +246,7 @@
     },
     {
         "name": "Component Testing Module",
-        "due": 1756900000000,
+        "due": 1755855600000,
         "overview": "Write a set of unit tests for an existing Angular component, using Karma and Jasmine.",
         "type": "Project",
         "attachments": [
@@ -276,7 +276,7 @@
     },
     {
         "name": "CSS-in-JS Project",
-        "due": 1757000000000,
+        "due": 1755855600000,
         "overview": "Create a small library of reusable components using a CSS-in-JS solution like Styled Components.",
         "type": "Project",
         "attachments": [
@@ -311,7 +311,7 @@
     },
     {
         "name": "Algebra and Functions Problems",
-        "due": 1757100000000,
+        "due": 1755855600000,
         "overview": "Solve a series of problems on equations, inequalities, and functions. Show all steps of the solution.",
         "type": "Assignment",
         "attachments": [
@@ -346,7 +346,7 @@
     },
     {
         "name": "Lab Report on Forces",
-        "due": 1757200000000,
+        "due": 1755855600000,
         "overview": "Write a lab report based on a virtual or physical experiment that demonstrates Newton's laws of motion.",
         "type": "Report",
         "attachments": [
@@ -381,7 +381,7 @@
     },
     {
         "name": "Atomic Structure Quiz",
-        "due": 1757300000000,
+        "due": 1755855600000,
         "overview": "A brief quiz to test your understanding of atomic components and the periodic table.",
         "type": "Quiz",
         "attachments": [

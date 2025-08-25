@@ -416,6 +416,29 @@ progress::-webkit-progress-value {
     text-align: left;
 }
 
+.userCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 2rem;
+    overflow: hidden;
+    align-items: center;
+    width: 350px;
+    min-height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .3);
+}
+
+.userCard img {
+    width: 320px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .4);
+}
+
 @media (max-width: 650px) {
     .navLink {
         display: none;

@@ -20,6 +20,17 @@ export async function searchUser(user) {
     return data;
 };
 
+export async function searchUsersByRole(role) {
+    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users?role=${role}`, {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    });
+    const data = await response.json();
+    return data;
+};
+
 export async function signIn(authenticator) {
     authenticator.status = "unauthenticated"
     const apiUser = await searchUser(authenticator);
@@ -472,6 +483,43 @@ export async function startAssignments() {
                 main.appendChild(divAssignment)
             }
             
+        } else if (userApi.role === "teacher") {
+        } else if (userApi.role === "admin") {
+        }
+    }
+}
+
+export async function startTeachers() {
+    const authenticator = JSON.parse(localStorage.getItem('authenticator'));
+    const userApi = await fetchAUser(authenticator.userId);
+    
+    if (authenticator.status === "authenticated") {
+        if (userApi.role === "student") {
+            const main = document.querySelector("main");
+            main.innerHTML = "";
+            const users = await searchUsersByRole("teacher");
+            main.innerHTML = `
+            <div class="space-between">
+                <h1>Teachers</h1>
+            </div>
+            <section>
+                <div class="row">
+
+                </div>
+            </section>
+            `;
+            const row = document.querySelector(".row");
+            users.forEach(element => {
+                row.innerHTML += `
+                <div class="userCard">
+                    <img src="${element.imageUrl}" alt="">
+                    <span class="t2">${element.name}</span>
+                    <span class="t4">📬 Email: ${element.email}</span>
+                    <span class="t5">📅 Since: ${new Date(element.since).getFullYear()}</span>
+                </div>
+                `
+            });
+
         } else if (userApi.role === "teacher") {
         } else if (userApi.role === "admin") {
         }

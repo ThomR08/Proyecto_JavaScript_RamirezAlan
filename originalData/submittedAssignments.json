@@ -6,18 +6,18 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente (Sin entregar y la fecha no ha pasado)",
         "score": 0
     },
     {
         "id": "2",
         "assignmentId": "2",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756201000001,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Entrega Tardía (Entregado después de la fecha límite)",
+        "score": 85
     },
     {
         "id": "3",
@@ -26,18 +26,18 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado y la fecha límite ya pasó)",
         "score": 0
     },
     {
         "id": "4",
         "assignmentId": "4",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756300999999,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 95
     },
     {
         "id": "5",
@@ -46,28 +46,28 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado)",
         "score": 0
     },
     {
         "id": "6",
         "assignmentId": "6",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756401000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Entrega Tardía (Entregado después de la fecha límite)",
+        "score": 78
     },
     {
         "id": "7",
         "assignmentId": "7",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756400000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 100
     },
     {
         "id": "8",
@@ -76,18 +76,18 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente",
         "score": 0
     },
     {
         "id": "9",
         "assignmentId": "9",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756501000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 89
     },
     {
         "id": "10",
@@ -96,7 +96,7 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado)",
         "score": 0
     },
     {
@@ -106,28 +106,28 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente",
         "score": 0
     },
     {
         "id": "12",
         "assignmentId": "12",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756500000001,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Entrega Tardía (Entregado después de la fecha límite)",
+        "score": 72
     },
     {
         "id": "13",
         "assignmentId": "13",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756600000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 91
     },
     {
         "id": "14",
@@ -136,7 +136,7 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado)",
         "score": 0
     },
     {
@@ -146,28 +146,28 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente",
         "score": 0
     },
     {
         "id": "16",
         "assignmentId": "16",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756601000001,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Entrega Tardía (Entregado después de la fecha límite)",
+        "score": 65
     },
     {
         "id": "17",
         "assignmentId": "17",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756700000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 88
     },
     {
         "id": "18",
@@ -176,7 +176,7 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado)",
         "score": 0
     },
     {
@@ -186,28 +186,28 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente",
         "score": 0
     },
     {
         "id": "20",
         "assignmentId": "20",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1756701000001,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Entrega Tardía (Entregado después de la fecha límite)",
+        "score": 75
     },
     {
         "id": "21",
         "assignmentId": "21",
         "userId": "1",
-        "done": false,
-        "submittedOn": 0,
+        "done": true,
+        "submittedOn": 1757200000000,
         "content": [],
-        "comment": "",
-        "score": 0
+        "comment": "Completado (Entregado a tiempo)",
+        "score": 92
     },
     {
         "id": "22",
@@ -216,7 +216,7 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Tarea Pendiente",
         "score": 0
     },
     {
@@ -226,7 +226,7 @@
         "done": false,
         "submittedOn": 0,
         "content": [],
-        "comment": "",
+        "comment": "Retrasado (No entregado)",
         "score": 0
     }
 ]
