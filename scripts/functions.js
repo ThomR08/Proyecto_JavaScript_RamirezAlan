@@ -80,6 +80,7 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
+            await startContent();
         };
     };
 };
