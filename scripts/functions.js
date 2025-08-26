@@ -533,5 +533,39 @@ export async function startProfile() {
     if (authenticator.status === "authenticated") {
         const main = document.querySelector("main");
         main.innerHTML = "";
+        main.innerHTML = `
+        <form id="profileContent" action="">
+            <img src="${userApi.imageUrl}" alt="">
+            <span class="t2">${userApi.name}</span>
+            <div class="profileCard">
+                <div class="space-between">
+                    <h2>Personal Information</h2>
+                    <div class="afterBar"></div>
+                </div>
+                <div class="row">
+                    <div class="label2">
+                        <label for="name">Name</label>
+                        <input type="text" value="${userApi.name}">
+                    </div>
+                    <div class="label2">
+                        <label for="email">Email</label>
+                        <input type="email" value="${userApi.email}">
+                    </div>
+                    <div class="label2">
+                        <span class="t5">userId</span>
+                        <span class="input">${userApi.id}</span>
+                    </div>
+                    <div class="label2">
+                        <span class="t5">Since</span>
+                        <span class="input">${new Date(userApi.since).toLocaleDateString()}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button id="logOut">Log Out</button>
+                <button class="submit" type="submit">Save Changes</button>
+            </div>
+        </form>
+        `;
     }
 }
