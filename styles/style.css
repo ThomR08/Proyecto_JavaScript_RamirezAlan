@@ -420,7 +420,6 @@ progress::-webkit-progress-value {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 1rem;
     padding: 1rem;
     gap: 2rem;
     overflow: hidden;
@@ -444,7 +443,7 @@ progress::-webkit-progress-value {
     flex-direction: column;
     position: relative;
     width: 70%;
-    min-width: 380px;
+    min-width: 350px;
     padding: 2rem;
     gap: 2rem;
     overflow: hidden;
@@ -493,4 +492,15 @@ progress::-webkit-progress-value {
     #hamburguer {
         display: flex;
     }
+}
+
+.headerActive {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.navLinkActive {
+    display: flex;
 }

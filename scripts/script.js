@@ -15,4 +15,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       modal.animation()
       await modal.authenticate()
     });
+
+    document.querySelector('#hamburguer')
+      .addEventListener('click', e =>{
+        document.querySelector('header').classList.toggle("headerActive");
+        Array.from(document.getElementsByClassName('navLink')).forEach(element => {
+          element.classList.toggle("navLinkActive");
+        });
+      });
 });
