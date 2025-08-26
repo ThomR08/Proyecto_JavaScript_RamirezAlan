@@ -20,6 +20,18 @@ export async function searchUser(user) {
     return data;
 };
 
+export async function updateUser(dictionary, id) {
+    const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users/${id}`, {
+        method: 'PUT',
+        headers: {
+            'content-Type': 'application/json'
+        },
+        body: JSON.stringify(dictionary)
+    });
+    const data = await response.json();
+    return data;
+};
+
 export async function searchUsersByRole(role) {
     const response = await fetch(`https://68a1ebfa6f8c17b8f5db1b38.mockapi.io/users?role=${role}`, {
         method: 'GET',
@@ -91,6 +103,7 @@ export async function authenticate() {
             signInContain.classList.add("hidden");
             main.classList.remove("hidden");
             main.classList.add("grid");
+            await startContent();
         };
     };
 };
@@ -545,11 +558,15 @@ export async function startProfile() {
                 <div class="row">
                     <div class="label2">
                         <label for="name">Name</label>
-                        <input type="text" value="${userApi.name}">
+                        <input name="name" type="text" value="${userApi.name}">
                     </div>
                     <div class="label2">
                         <label for="email">Email</label>
-                        <input type="email" value="${userApi.email}">
+                        <input name="email" type="email" value="${userApi.email}">
+                    </div>
+                    <div class="label2">
+                        <label for="password">Password</label>
+                        <input name="password" type="password" value="${userApi.password}">
                     </div>
                     <div class="label2">
                         <span class="t5">userId</span>
@@ -567,5 +584,27 @@ export async function startProfile() {
             </div>
         </form>
         `;
+        main.querySelector('form')
+            .addEventListener('submit', async e => {
+                e.preventDefault();
+                const data = Object.fromEntries(
+                    new FormData(e.target)
+                );
+                userApi.name = data.name;
+                userApi.email = data.email;
+                userApi.password = data.password;
+                await updateUser(userApi, userApi.id)
+                document.location.reload()
+            });
+        document.querySelector('#logOut')
+            .addEventListener('click', async e => {
+                const authenticator = {
+                    status: "unauthenticated",
+                    userId: "",
+                    userEmail: "",
+                    userPassword: ""
+                };
+                localStorage.setItem('authenticator', JSON.stringify(authenticator));
+            })
     }
 }
