@@ -46,4 +46,4 @@ To run this project locally, simply follow these steps:
 
 -   **_Alan Ramírez_**
 
-[Link explanation of the project in Spanish](https://youtu.be/q4dDJPBoCj4)
+[Link explanation of the project in Spanish](https://youtu.be/pL1ysEgNFFY)
